@@ -1,4 +1,4 @@
-.container{
+.cabecalho{
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -42,7 +42,7 @@ button{
         display: none;
     }
     .botao{
-        width: 100%;
+       width: 100%;
        display: flex;
        flex-direction: row; 
        justify-content: space-evenly;
@@ -65,7 +65,7 @@ button{
        color: rgb(202, 50, 12);
     }
 
-    .container{
+    .cabecalho{
         width: 100%;
         display: flex;
         flex-direction: row;
@@ -84,25 +84,31 @@ button{
 .adoteaqui:hover{
    color: blue; 
    font-size: 80px;
-   
+   transition: 4s;
 }
-h1::before{
-   font-size: larger; 
-   font-weight: bold;
-}
+
 .home:hover{
     color: rgb(252, 242, 153);
+    transition: 4s;
 
 }
 .sobre:hover{
     color: rgb(252, 242, 153);
+    transition: 4s;
 
 }
 .quem:hover{
     color: rgb(252, 242, 153);
+    transition: 4s;
 }
 button:hover{
     background-color: blue;
     border-color: rgb(252, 242, 153);
+   
 
+}
+.direitos{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
 }
