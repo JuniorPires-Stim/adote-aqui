@@ -1,0 +1,108 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border: solid green;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(6, 230, 136);
+}
+.botao{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+}
+.adote{
+    width: 100%;
+    padding: 0px 100px;
+}
+button{
+    padding: 10px 20px;
+    background-color: rgb(6, 230, 137);
+    border: 2px solid white;
+
+}
+
+.adoteaqui{
+     color:rgb(255, 255, 255);    
+    }
+.home{
+    color: rgb(255, 255, 255);
+}
+.sobre{
+    color: rgb(255, 255, 255);
+}
+.quem{
+    color: rgb(255, 255, 255);
+}
+@media (max-width: 700px) { 
+    h1{
+        display: none;
+    }
+    .botao{
+        width: 100%;
+       display: flex;
+       flex-direction: row; 
+       justify-content: space-evenly;
+       
+    }
+    .adote{
+        display: flex;
+        display: none;
+    }
+    .adoteaqui{
+        color:rgb(202, 50, 12);    
+       }
+   .home{
+       color: rgb(202, 50, 12);
+   }
+   .sobre{
+       color: rgb(202, 50, 12);
+   }
+   .quem{
+       color: rgb(202, 50, 12);
+    }
+
+    .container{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        border: solid rgb(248, 78, 78);
+        justify-content: space-around;
+        align-items: center;
+        background: rgb(148, 66, 66);
+    }
+    button{
+        padding: 10px 20px;
+        background: rgb(255, 255, 255);
+        border: 2px solid rgb(204, 5, 5);
+    }
+  
+}
+.adoteaqui:hover{
+   color: blue; 
+   font-size: 80px;
+   
+}
+h1::before{
+   font-size: larger; 
+   font-weight: bold;
+}
+.home:hover{
+    color: rgb(252, 242, 153);
+
+}
+.sobre:hover{
+    color: rgb(252, 242, 153);
+
+}
+.quem:hover{
+    color: rgb(252, 242, 153);
+}
+button:hover{
+    background-color: blue;
+    border-color: rgb(252, 242, 153);
+
+}
